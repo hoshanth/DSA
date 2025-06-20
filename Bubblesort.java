@@ -17,7 +17,7 @@ public class Main
     }
         
     static void bubble_sort(int arr[]){
-        for (int i=0;i<arr.length-1;i++){
+        for (int i=0;i<arr.length;i++){
             boolean swap=false;  //if already swapped break the loop
             for (int j=1;j<arr.length-i;j++){
                 if(arr[j-1]>arr[j]){
